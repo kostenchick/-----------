@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'ExtraLight';
+    src: url(./assets/fonts/NotoSans-ExtraLight.ttf) format("TrueType");
+}
+
+body {
+    background: url(./assets/picture/gym-wallpaper-preview.jpg);
+    background-size: cover;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'ExtraLight ' monospace;
+}
+
+.img {
+  width: 12.5cm;
+  height: 15cm;
+  border-radius: 23px;
+  
+}
+
+.wrapper {
+    color: white;
+    line-height: 160%;
+}
+
+.eating-section {
+    color:bisque;
+}
+
+p {
+    color: aqua; 
+}
+
+.fw-bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
