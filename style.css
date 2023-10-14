@@ -1,39 +1,35 @@
-@font-face {
-    font-family: 'ExtraLight';
-    src: url(./assets/fonts/NotoSans-ExtraLight.ttf) format("TrueType");
+/* calculation sizes
+width = sizes + padding + borders
+*/
+
+
+.image {
+    width: 300px;
+    /* border: 3px dashed blue; */
+    border-top: 2px dotted black;
+    border-right: 3px solid green;
+    border-bottom: 4px dashed brown;
+    border-left: 5px double violet;
+
+    box-sizing: border-box;
+
+    /* padding: top right bottom left */
+    padding: 5px 4px 3px 1px;
+
+    /* padding: top left-right bottom */
+    padding: 5px 3px 2px;
+
+    /* padding: top-bottom left-right */
+    padding: 5px 2px;
+
+    /* padding: all */
+    padding: 10px;
+
+    /*  */
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left:  5px;
+
 }
-
-body {
-    background: url(./assets/picture/gym-wallpaper-preview.jpg);
-    background-size: cover;
-    /* font-family: 'Oswald', sans-serif; */
-    font-family: 'ExtraLight ' monospace;
-}
-
-.img {
-  width: 12.5cm;
-  height: 15cm;
-  border-radius: 23px;
-  
-}
-
-.wrapper {
-    color: white;
-    line-height: 160%;
-}
-
-.eating-section {
-    color:bisque;
-}
-
-p {
-    color: aqua; 
-}
-
-.fw-bold {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-
-
