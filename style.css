@@ -18,8 +18,8 @@ width = sizes + padding + borders
     padding-left:20px; /* working */
     padding-right: 20px; /* working */
 
-    margin-top: 50px; /* not working    (but working with display: block) */
-    margin-bottom: 50px; /* not working    (but working with display: block) */
+    margin-top: 50px; /* not working  //  (but working with display: block) */
+    margin-bottom: 50px; /* not working  //  (but working with display: block) */
 
 
     color: green;
