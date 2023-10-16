@@ -5,31 +5,27 @@ width = sizes + padding + borders
 
 .image {
     width: 300px;
-    /* border: 3px dashed blue; */
-    border-top: 2px dotted black;
-    border-right: 3px solid green;
-    border-bottom: 4px dashed brown;
-    border-left: 5px double violet;
-
-    box-sizing: border-box;
-
-    /* padding: top right bottom left */
-    padding: 5px 4px 3px 1px;
-
-    /* padding: top left-right bottom */
-    padding: 5px 3px 2px;
-
-    /* padding: top-bottom left-right */
-    padding: 5px 2px;
-
-    /* padding: all */
+    border: 3px dashed blue;
+    box-sizing: border-box; /* Content sizes changes relative to general sizes */
     padding: 10px;
+}
 
-    /*  */
+.main-span {
+    width: 30px;
+}
 
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left:  5px;
+.content-span {
+    padding-left:20px; /* working */
+    padding-right: 20px; /* working */
 
+    margin-top: 50px; /* not working    (but working with display: block) */
+    margin-bottom: 50px; /* not working    (but working with display: block) */
+
+
+    color: green;
+    display: block;
+}
+
+.wrapper {
+  display: inline;  
 }
