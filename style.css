@@ -10,12 +10,21 @@ a {
     padding: 10px;
     color: blueviolet;
 }
-.page-link:hover {
+/* .page-link:hover {
     background-color: dodgerblue;
     color: bisque;
-}
+} */
 
 .navigation {
+}
+
+.page-link:not(a) {
+    border: 2px double red ;
+}
+
+.page-link:hover:not(button) {
+    background-color: dodgerblue;
+    color: bisque;
 }
 
 .link-list li {
