@@ -9,6 +9,7 @@ a {
     background-color: lightblue;
     padding: 10px;
     color: blueviolet;
+    border-radius: 10%;
 }
 /* .page-link:hover {
     background-color: dodgerblue;
@@ -27,7 +28,15 @@ a {
     color: bisque;
 }
 
+.page-link:focus {
+    border: 10px solid green;
+}
+
 .link-list li {
     display: inline-block;
     margin-top: 30px;
+}
+
+input:focus {
+    background-color: aqua;
 }
