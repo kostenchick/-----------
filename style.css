@@ -1,9 +1,15 @@
 .link-list {
+
+}
+
+.navigation {
+
 }
 
 a {
     text-decoration: none;
 }
+
 
 .page-link {
     background-color: lightblue;
@@ -11,25 +17,28 @@ a {
     color: blueviolet;
     border-radius: 10%;
 }
-/* .page-link:hover {
+
+.page-link:hover {
     background-color: dodgerblue;
     color: bisque;
-} */
-
-.navigation {
 }
 
 .page-link:not(a) {
     border: 2px double red ;
 }
 
-.page-link:hover:not(button) {
+/* .page-link:hover:not(button) {
     background-color: dodgerblue;
     color: bisque;
-}
+} */
 
 .page-link:focus {
     border: 10px solid green;
+}
+
+.page-link:active {
+    background-color: orange;
+    color: black;
 }
 
 .link-list li {
