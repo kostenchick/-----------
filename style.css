@@ -1,12 +1,24 @@
-.a1 {
-    width: 100px;
-    height: 100px;
-    background-color: bisque;
-    color: blue;
-    font-size: 40px;
-    text-align: center;
+.link-list {
 }
 
-div:hover {
-    background-color: #5364;
+a {
+    text-decoration: none;
+}
+
+.page-link {
+    background-color: lightblue;
+    padding: 10px;
+    color: blueviolet;
+}
+.page-link:hover {
+    background-color: dodgerblue;
+    color: bisque;
+}
+
+.navigation {
+}
+
+.link-list li {
+    display: inline-block;
+    margin-top: 30px;
 }
